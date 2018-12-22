@@ -1,0 +1,108 @@
+#team {
+background-image: url("../img/team_bac.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+min-height: 900px;
+display: flex;
+align-items: center;
+}
+
+.team {
+
+  &__h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #f2f2f2;
+  }
+
+  &__desc {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #f2f2f2;
+  }
+
+  &__prof-blok {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    &--cont {
+      background: rgba(242, 242, 242, 0.7);
+      max-width: 270px;
+      min-height: 415px;
+      margin: 0 20px 20px 0;
+    }
+  }
+
+  &__button {
+
+
+    &-block {
+      text-transform: uppercase;
+      font-weight: 700;
+      border: 1px solid #fff;
+      border-radius: 40px;
+      height: 41px;
+      width: 200px;
+      margin: auto;
+      display: flex;
+
+      & a {
+        font-size: 13px;
+        color: #e8e8e8;
+        text-decoration: none;
+
+      }
+    }
+  }
+
+
+}
+
+.prof {
+
+  &__name {
+    padding: 32px 0 0 0;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  &__specialty {
+    font-size: 14px;
+    padding: 10px 0 0 0;
+    opacity: 0.8;
+  }
+
+  &__soc {
+    padding: 23px 0;
+    display: flex;
+    justify-content: center;
+
+    & a {
+      height: 24px;
+      width: 24px;
+      background: #313233;
+      text-decoration: none;
+      border: 1px solid#313233;
+      border-radius: 51px;
+      color: #f2f2f2;
+      display: flex;
+      margin: 0 2px;
+
+      & i {
+        margin: auto;
+      }
+    }
+
+
+  }
+}
+
+.line__white {
+  height: 2px;
+  width: 40px;
+  background: #f2f2f2;
+  margin: 15px auto;
+}

@@ -1,0 +1,43 @@
+@media screen and (min-width: 1024px) {
+  .works {
+
+    &__portfolio {
+
+
+      &-img {
+
+
+        flex: 20%;
+      }
+    }
+  }
+
+  .menu {
+    right: 27%;
+    top: 78px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+
+    &__logo {
+      flex-direction: column;
+
+      & img {
+        width: 74px;
+        margin: auto;
+      }
+    }
+
+    &__soc {
+      flex-direction: column;
+
+      &-icon {
+        display: flex;
+      }
+    }
+  }
+}

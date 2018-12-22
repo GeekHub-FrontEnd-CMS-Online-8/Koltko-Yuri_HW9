@@ -1,0 +1,122 @@
+#pricing {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.pricing {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.pricing__blok {
+  height: 500px;
+  max-width: 350px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid #eeeeee;
+}
+
+.pricing__blok-cena {
+  height: 160px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pricing__blok-desc {
+  height: 340px;
+  border-top: 1px solid #eeeeee;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+.pricing__blok-desc p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin: auto;
+  color: #29323c;
+  line-height: 40px;
+  padding: 0 40px;
+}
+
+.pricing__button-block {
+  text-transform: uppercase;
+  font-weight: 700;
+  background: #29323c;
+  -webkit-border-radius: 40px;
+          border-radius: 40px;
+  height: 40px;
+  width: 125px;
+  margin: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pricing__button-block a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+}
+
+.cena {
+  color: #485563;
+}
+
+.cena__h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.cena__month {
+  font-size: 45px;
+}
+
+.cena__desc {
+  font-size: 14px;
+  opacity: 0.8;
+}

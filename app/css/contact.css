@@ -1,0 +1,109 @@
+.contact {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 650px;
+}
+
+.contact__map {
+  -webkit-box-flex: 50%;
+  -webkit-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+}
+
+.contact__map iframe {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+.contact__form {
+  font-size: 14px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact__form-blok {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 50%;
+  -webkit-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(../img/footer_img.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: left;
+  color: #dddddd;
+}
+
+.contact__form textarea {
+  background: none;
+  border: 1px solid #dddddd;
+}
+
+.contact__form-text {
+  margin: 0 20px 0 0;
+  text-align: left;
+}
+
+.contact__form-text div {
+  font-size: 14px;
+  font-weight: 700;
+  color: #e8e8e8;
+}
+
+.contact__form form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 228px;
+}
+
+.contact__form form input {
+  background: none;
+  border: 1px solid #dddddd;
+  height: 35px;
+}
+
+.send {
+  font-size: 14px;
+  font-weight: 700;
+  color: #e8e8e8;
+  width: 50px;
+  background: none;
+  border: 1px solid #000;
+  height: 30px;
+  width: 120px;
+  -webkit-align-self: flex-end;
+      -ms-flex-item-align: end;
+          align-self: flex-end;
+}

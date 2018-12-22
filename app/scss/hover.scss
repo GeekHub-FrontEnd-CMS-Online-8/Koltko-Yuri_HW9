@@ -1,0 +1,106 @@
+.menu {
+
+  &__hover {
+
+    & a {
+       &:hover {
+      color:#919CA7;
+      transition: 1s;
+    }
+    }
+
+  
+  }
+}
+
+
+.icon {
+
+  &__hover {
+
+    &:hover {
+      transform: scale(1.5, 1.5);
+    }
+
+  }
+}
+
+.twitter {
+
+  &:hover {
+    background: #4ea0eb;
+    border: 1px solid#4ea0eb;
+  }
+}
+.linkedin {
+
+  &:hover {
+    background: #0077b5;
+    border: 1px solid#0077b5;
+  }
+}
+.vimeo {
+
+  &:hover {
+    background: #1393cd;
+    border: 1px solid#1393cd;
+  }
+}
+.dribbble {
+
+  &:hover {
+    background: #ea4c89;
+    border: 1px solid#ea4c89;
+  }
+}
+.envelope {
+
+  &:hover {
+    background: #969696;
+    border: 1px solid#969696;
+  }
+
+
+
+}
+
+.google {
+
+    &:hover {
+      background: #d12d2f;
+      border: 1px solid#d12d2f;
+    }
+
+  }
+
+.pricing {
+
+  &__blok{
+    &:hover {
+      transform: translateY(-20px);
+      border-top:4px solid#29323c;
+      color: #29323c;
+      transition: 1s;
+
+
+    }
+    &-cena {
+
+
+    }
+  }
+}
+
+.button {
+
+  &__hover {
+     &:hover {
+        background: #919CA7;
+        transition: 2s;
+        opacity: 0.8;
+      }
+      
+    
+  }
+  
+}

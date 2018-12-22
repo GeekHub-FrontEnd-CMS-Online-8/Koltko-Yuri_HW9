@@ -1,0 +1,57 @@
+#works {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.works__portfolio {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.works__portfolio-img {
+  position: relative;
+}
+
+.works__portfolio-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.works__portfolio-img:hover .works__portfolio-hover {
+  display: block;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.works__portfolio-hover {
+  color: #fff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  background: rgba(40, 50, 60, 0.6);
+  padding: 50px;
+  display: none;
+}
+
+.works__portfolio-hover p {
+  font-size: 15px;
+  font-weight: 700;
+}

@@ -1,0 +1,67 @@
+.clients {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.clients img {
+  height: 65px;
+  width: 65px;
+  margin: auto;
+}
+
+.clients__patches {
+  font-size: 40px;
+  font-weight: 700;
+  color: #2b3746;
+  opacity: 0.5;
+}
+
+.clients__name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #29323c;
+  padding: 15px 0 0 0;
+}
+
+.clients__position {
+  font-size: 13px;
+  color: #29323c;
+  opacity: 0.8;
+  padding: 7px 0;
+}
+
+.clients__marker {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.clients__marker-hover {
+  height: 15px;
+  width: 15px;
+  border: 1px solid #2b3746;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  margin: 3px;
+}
+
+.clients__marker-hover:hover {
+  background: #2b3746;
+  border: 1px solid #2b3746;
+}

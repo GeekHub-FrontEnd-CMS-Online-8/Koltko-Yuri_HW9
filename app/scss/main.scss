@@ -1,0 +1,23 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+  color: #29323c;
+}
+
+@import "indent";
+@import "header";
+
+@import "service";
+@import "works";
+@import "testimonial";
+@import "team";
+@import "clients";
+@import "pricing";
+@import "contact";
+@import "footer";
+@import "logo";
+@import "hover";
+
+@import "media";

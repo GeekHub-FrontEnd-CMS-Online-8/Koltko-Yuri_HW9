@@ -1,0 +1,46 @@
+#footer {
+
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  &__soc {
+    display: flex;
+
+    & a {
+      height: 35px;
+      width: 35px;
+      background: #313233;
+      text-decoration: none;
+      border: 1px solid #313233;
+
+      border-radius: 51px;
+      color: #f2f2f2;
+
+      display: flex;
+      margin: 0 2px;
+
+      & i {
+        margin: auto;
+      }
+    }
+
+    &-icon {
+      display: flex;
+    }
+
+  }
+
+  & span {
+    font-size: 14px;
+    margin: auto;
+    padding: 0 20px;
+  }
+
+  &__logo {
+    display: flex;
+  }
+}

@@ -1,0 +1,56 @@
+.clients  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  & img {
+    height: 65px;
+    width: 65px;
+    margin: auto;
+  }
+
+  &__patches {
+    font-size: 40px;
+    font-weight: 700;
+    color: #2b3746;
+    opacity: 0.5;
+  }
+
+  &__name {
+    font-size: 15px;
+    font-weight: 700;
+    color: #29323c;
+    padding: 15px 0 0 0;
+  }
+
+  &__position {
+    font-size: 13px;
+    color: #29323c;
+    opacity: 0.8;
+    padding: 7px 0;
+  }
+
+  &__marker {
+    display: flex;
+    justify-content: center;
+
+    &-hover {
+
+      height: 15px;
+      width: 15px;
+      border: 1px solid#2b3746;
+      border-radius: 10px;
+      margin: 3px;
+
+      &:hover {
+        background: #2b3746;
+        border: 1px solid#2b3746;
+      }
+
+
+    }
+
+  }
+
+  
+}

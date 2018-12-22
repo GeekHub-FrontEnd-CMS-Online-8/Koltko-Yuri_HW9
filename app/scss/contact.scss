@@ -1,0 +1,83 @@
+.contact {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+
+	min-height: 650px;
+	&__map {
+		flex: 50%;
+		
+		& iframe {
+			height: 100%;
+    		width: 100%;
+    		border: none;
+		}
+	}
+
+	&__form {
+		font-size: 14px;
+		display: flex;
+
+		&-blok {
+			display: flex;
+	    flex: 50%;
+	    align-items: center;
+	    justify-content: center;
+	    background-image: url(../img/footer_img.jpg);
+	    background-repeat: no-repeat;
+	    background-position: center;
+	    background-size: cover;
+	    text-align: left;
+	    color: #dddddd;
+		}
+
+		& textarea {
+			background: none;
+			border: 1px solid#dddddd;
+		}
+
+
+		&-text {
+				margin: 0 20px 0 0;
+				text-align: left;
+			& div {
+				font-size: 14px;
+				font-weight: 700;
+				color: #e8e8e8;
+			}
+
+
+			}
+
+		& form {
+
+			display: flex;
+    	flex-direction: column;
+			width: 228px;
+
+
+
+			& input {
+				background: none;
+				border: 1px solid#dddddd;
+				height: 35px;
+
+			}
+
+
+		}
+	}
+}
+
+.send {
+	font-size: 14px;
+	font-weight: 700;
+	color: #e8e8e8;
+	width: 50px;
+  background: none;
+  border: 1px solid#000;
+	height: 30px;
+  width: 120px;
+  align-self: flex-end;
+}
